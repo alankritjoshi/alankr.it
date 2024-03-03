@@ -1,0 +1,43 @@
+baseURL = 'https://alankr.it/'
+languageCode = 'en-us'
+title = 'Alankrit Joshi'
+theme = 'risotto'
+
+enableInlineShortcodes = true
+
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.theme]
+palette = 'catppuccin-mocha'
+
+[params.about]
+title = "Alankrit Joshi"
+description = "Software Engineer"
+# logo_image = "images/profile.svg"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:alankritjoshi@gmail.com"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/alankritjoshi"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn"
+url = "https://linkedin.com/in/alankritjoshi"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "About"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
