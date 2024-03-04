@@ -1,19 +1,21 @@
 +++
 title = 'About'
-description = '''Software Engineer'''
-date = 2024-03-03
-draft = true
+description = '''More about me'''
 +++
-I have 6+ years of experience building distributed systems in startups and large companies. 
-
-Apart from work, I spend a lot of time on my personal projects, tooling and developer productivity (I use neovim, btw).
+## Interests
+- Work on personal projects, tools, DevEx
+- Support Liverpool FC (I've been to Anfield)
+- Consume Sci-Fi and Fantasy Content
+- Play football (the right one), tennis and... video games
 
 ## Location
 I have travelled, studied and worked across India, US and Canada. 
 
 Currently, I am based in Vancouver, Canada.
 
-## Work
+## Engineering
+I have 6+ years of experience in distributed systems. 
+
 - (Jan '24 - Present) -> [WMG](wmg.com) -> building the next-generation data platform
 - (Apr '23 - Oct '23) -> [Hopper](hopper.com) -> Finance Automation ([Laid Off](https://www.theglobeandmail.com/business/article-hopper-cuts-30-per-cent-of-staff-in-push-by-montreal-online-travel/))
 - (Apr '22 - Jan '22) -> [Coinbase](coinbase.com) -> Institutional Crypto ([Laid Off](https://www.coinbase.com/blog/a-message-from-ceo-and-co-founder-brian-armstrong-to-coinbase-employees))

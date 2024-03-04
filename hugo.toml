@@ -1,9 +1,13 @@
 baseURL = 'https://alankr.it/'
-languageCode = 'en-us'
-title = 'Alankrit Joshi'
 theme = 'risotto'
+author = 'Alankrit Joshi'
+title = 'Alankrit Joshi'
 
+copyright = "© [Alankrit Joshi](https://alankr.it)"
+languageCode = "en"
+DefaultContentLanguage = "en"
 enableInlineShortcodes = true
+ignoreErrors = ["error-remote-getjson"]
 
 sectionPagesMenu = "main"
 
@@ -15,7 +19,7 @@ palette = 'catppuccin-mocha'
 
 [params.about]
 title = "Alankrit Joshi"
-description = "Software Engineer"
+description = "Software Engineer 🇨🇦 🇮🇳"
 # logo_image = "images/profile.svg"
 
 [[params.socialLinks]]
@@ -40,4 +44,10 @@ url = "https://linkedin.com/in/alankritjoshi"
     name = "About"
     url = "/about/"
     weight = 10
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[languages.en]
+languageName = "English"
 
