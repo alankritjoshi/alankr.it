@@ -23,11 +23,6 @@ description = "Software Engineer 🇨🇦 🇮🇳"
 # logo_image = "images/profile.svg"
 
 [[params.socialLinks]]
-icon = "fa-solid fa-envelope"
-title = "Email"
-url = "mailto:alankritjoshi@gmail.com"
-
-[[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
 url = "https://github.com/alankritjoshi"
@@ -37,12 +32,34 @@ icon = "fa-brands fa-linkedin"
 title = "LinkedIn"
 url = "https://linkedin.com/in/alankritjoshi"
 
+[[params.socialLinks]]
+icon = "fa fa-file-pdf"
+title = "Resume"
+url = "https://drive.google.com/open?id=1c-iBFHhmExnyOEDGKVKfonJ_WfTucOGP"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:alankritjoshi@gmail.com"
+
 [menu]
 
   [[menu.main]]
     identifier = "About"
     name = "About"
     url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "Work"
+    name = "Work"
+    url = "/work/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "Education"
+    name = "Education"
+    url = "/education/"
     weight = 10
 
 [markup.goldmark.renderer]
